@@ -7,39 +7,41 @@
     src: url(../fonts/Roboto/Roboto/Roboto-Regular.ttf);
 }
 
-header {
-    font-family: "Lato Regular";
-    background-color: #112E3E;
-    color: white;
-    width: 100%;
-}
-/* Height header */
+
 header nav .container-fluid{
-    padding: 0% 10%;
-    height: 15vh;
+    background-color: #112E3E; 
 }
 
-header .logo img{
+header .navbar  {
+    padding: 0%;
+}
+
+header img{
+    margin: 5%;
     width: 75%;
 }
-/* Style link */
-.navbar-expand-lg .navbar-nav .nav-link{
+nav .navbar-collapse{
+    justify-content: space-around;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    font-family: "Lato Regular";
     color: white;
-    font-size:18px;
-    padding: 0% 0%;
-
 }
 
-.navbar-expand-lg .container-fluid ul li{
-    padding: 0% 3%;
+nav .nav-item .nav-link{
+    padding: 0%;
 }
 
-/* Border li */
-header nav .nav-item:not(:first-child) .nav-link{
+nav .navbar-nav li:not(:first-child){
     border-left: 1px solid white;
 }
 
+/* Carrousel */
 
-/* Banner */
 
 
+/* About */
+#about .container{
+    text-align: center;
+}
