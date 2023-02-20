@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Lato Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Robot Regular";
+    src: url(../fonts/Roboto/Roboto/Roboto-Regular.ttf);
+}
+
+header {
+    font-family: "Lato Regular";
+    background-color: #112E3E;
+    color: white;
+    width: 100%;
+}
+/* Height header */
+header nav .container-fluid{
+    padding: 0% 10%;
+    height: 15vh;
+}
+
+header .logo img{
+    width: 75%;
+}
+/* Style link */
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    font-size:18px;
+    padding: 0% 0%;
+
+}
+
+.navbar-expand-lg .container-fluid ul li{
+    padding: 0% 3%;
+}
+
+/* Border li */
+header nav .nav-item:not(:first-child) .nav-link{
+    border-left: 1px solid white;
+}
+
+
+/* Banner */
+
+
