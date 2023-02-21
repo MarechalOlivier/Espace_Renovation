@@ -46,14 +46,35 @@ nav .navbar-nav li:not(:first-child){
 /* Banner */
 #banner {
     margin-bottom: 5%;
+    
 }
 
+#carouselExampleAutoplaying > .carousel-inner > .carousel-item {
+  height: 55vh;
+}
 
+.carousel-item.active {
+    width: 100%;
+}
 /* About */
 
 #about {
+    font-family: "Lato Regular";
     text-align: center;
+
 }
+
+#about > .container > .row h1{
+    font-size: 30px;
+}
+#about > .container > .row h2{
+    font-size: 20px;
+}
+#about > .container > .row p{
+    font-size: 15px;
+}
+
+
 #about .container{
     text-align: center;
     margin-bottom: 5%;
