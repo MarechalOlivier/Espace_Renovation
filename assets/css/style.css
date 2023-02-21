@@ -3,6 +3,10 @@
     src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 @font-face {
+    font-family: "Lato Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
     font-family: "Robot Regular";
     src: url(../fonts/Roboto/Roboto/Roboto-Regular.ttf);
 }
@@ -11,6 +15,7 @@
 header nav .container-fluid{
     background-color: #112E3E; 
 }
+
 
 header .navbar  {
     padding: 0%;
@@ -37,18 +42,45 @@ nav .navbar-nav li:not(:first-child){
     border-left: 1px solid white;
 }
 
-/* Carrousel */
-
+/* Banner */
+#banner {
+    margin-bottom: 5%;
+}
 
 
 /* About */
 #about .container{
     text-align: center;
+    margin-bottom: 5%;
 }
 
+#about  a {
+    display: inline;
+    font-family: "Lato Bold";
+    background-color: #112E3E;
+    color: white;
+    padding: 2% 5%;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10%;
+}
 
+/* réalisation */
+#realisations .container {
+        text-align: center;
+}
+#realisations .container a{
+    display: inline;
+    font-family: "Lato Bold";
+    background-color: #112E3E;
+    color: white;
+    padding: 2% 5%;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10%;
+}
 
-
+/* Footer */
 footer{
     text-align: center;
     background-color: #112E3E;
